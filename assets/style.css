@@ -1,0 +1,95 @@
+
+
+body{
+    height: 100vh;
+    background: green;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+    margin: 0px;;
+    box-sizing: border-box;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    color: gray;
+    font-size: 50px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+.navbar ul li:hover a{
+    color: black;
+}
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+.light-container{
+    display: block;
+    max-width: 72vw;
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    padding: 50px;
+    background: rgba(0, 0, 0, .6);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px;
+}
+
+.image-wrapper img{
+    max-width: 400px;
+    border-radius: 15%;
+}
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.main{
+    margin-top: 10vh;
+    display: inline-block;
+    padding: 20px;
+}
+
+.main h3{
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.main p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button{
+    width: 75%;
+    font-size: 20px;
+    border: solid black 1px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    border-color: aqua;
+    background-color: aqua;
+}
+
+
+
+.borderline{
+    border-left: 10px solid var(--tri-color);
+    margin: 15px;
+}
+
+
